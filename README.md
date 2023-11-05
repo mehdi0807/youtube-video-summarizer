@@ -2,9 +2,9 @@
 
 This web application uses [Streamlit](https://streamlit.io/), [Langchain](https://python.langchain.com/), and [Hugging Face](https://huggingface.co/) models to take a YouTube video link and return a summarization of its content. The core modules used in this project are the 'YoutubeLoader' from Langchain Agents and the 'philschmid/bart-large-cnn-samsum' model from Hugging Face.<br>
 
-<video controls>
-  <source src="demo.mp4" type="video/mp4">
-</video>
+https://github.com/mehdi0807/youtube-video-summarizer/assets/92737907/6afba09a-ceab-4a71-bc5e-8e37aa58faf5
+
+
 
 ## How it works
 
