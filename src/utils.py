@@ -8,7 +8,7 @@ API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn" 
 # Finding the Hugging face API from the .env file
 dotenv_path = find_dotenv()
 load_dotenv(dotenv_path)
-HEADERS = os.getenv("headers")
+HEADERS = {"Authorization": os.getenv("authorization")}
 
 def transcript_loader(url: str) -> str:
     """
